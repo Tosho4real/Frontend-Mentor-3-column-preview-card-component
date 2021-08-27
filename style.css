@@ -11,7 +11,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
 }
 #container {
     height: 90%;
@@ -78,4 +77,38 @@ body{
     font-size: large;
     font-family: 'Lexend Deca', sans-serif;
     text-transform: capitalize;
+}
+
+/* Desktop view Responsiveness */
+@media only screen and (min-width: 768px) {
+body {
+    height: 100vh;
+}
+#container {
+    flex-direction: row;
+    width: 60%;
+    height: 80%;
+}
+.btn>button {
+    margin: 30px 0 20px 0;
+}
+
+.brand-name,
+.paragraph,
+.logo,
+.btn {
+    margin-left: 50px;
+}
+
+.child1 {
+    border-radius: 8px 0 0 8px;
+}
+.child3 {
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
 }
