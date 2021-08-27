@@ -1,0 +1,81 @@
+/* Mobile first view*/
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 230vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#container {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child1 {
+    background-color:  hsl(31, 77%, 52%);
+    flex: 1;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.child1>div>button {
+    color: hsl(31, 77%, 52%);
+}
+.child2 {
+    background-color: hsl(184, 100%, 22%);
+    flex: 1;
+    width: 100%;
+}
+.child2>div>button{
+    color: hsl(184, 100%, 22%);
+}
+.child3 {
+    background-color: hsl(179, 100%, 13%);
+    flex: 1;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+}
+.child3>div>button {
+    color: hsl(179, 100%, 13%);
+}
+
+.logo {
+    margin: 3rem 0 2rem 2rem;
+}
+.brand-name {
+    margin: 3rem 0 2rem 2rem;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.paragraph {
+    margin: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 14em;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+.btn {
+    margin: 2rem;
+}
+.btn>button {
+    width: 9em;
+    padding: 0.8em;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+}
